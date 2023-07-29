@@ -25,102 +25,104 @@
 
 <body class="font-lato">
 
-    <nav>
-        <div class=" navbar grid grid-cols-3  bg-red-400 max-w-screen-xl mx-auto rounded-[600px] h-[100px]">
-            <div class="navbar-start">
-                <div class="dropdown">
-
-                    <ul class="flex gap-5 text-base ">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits</a></li>
-                    </ul>
+        <div class="relative" >
+            <nav class=" px-8">
+                <div class=" navbar grid grid-cols-3    bg-red-400 max-w-screen-xl mx-auto rounded-[600px] h-[100px] ">
+                    <div class="">
+                        <div class="dropdown ">
+        
+                            <ul class=" hidden  lg:flex gap-5 text-base ">
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>All Fruits</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex justify-center lg:ml-16">
+                        <img class="w-10 h-10" src="images/logo.png" alt="">
+                        <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                    </div>
+                    <div class="hidden lg:block w-60 ml-32  ">
+                        <input type="text" placeholder="Search here" class="rounded-xl">
+                        <i class="fa-solid fa-magnifying-glass -ml-10"></i>
+        
+        
+        
+        
+                    </div>
                 </div>
-            </div>
-            <div class="navbar-center">
-                <img class="w-10 h-10" src="images/logo.png" alt="">
-                <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
-            </div>
-            <div class=" bg-black items-end">
-
-                <!-- <input type="text" placeholder="Search here " class="input " />
-                <i class="fa-solid fa-magnifying-glass"></i> -->
-
-
-
+            </nav>
+            <section class=" max-w-screen-xl mx-auto pt-10">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner1.png);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="max-w-md">
+                                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                    <p class="mb-5">We supply highly quality organic products</p>
+                                    <button class="btn btn-error">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner2.png);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="max-w-md">
+                                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                    <p class="mb-5">We supply highly quality organic products</p>
+                                    <button class="btn btn-error">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner3.png);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="max-w-md">
+                                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                    <p class="mb-5">We supply highly quality organic products</p>
+                                    <button class="btn btn-error">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full z-20">
+                        <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner4.png);">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-center text-neutral-content">
+                                <div class="max-w-md">
+                                    <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                    <p class="mb-5">We supply highly quality organic products</p>
+                                    <button class="btn btn-error">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <section class=" max-w-screen-xl mx-auto pt-10">
-        <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full">
-                <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner1.png);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-error">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide2" class="carousel-item relative w-full">
-                <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner2.png);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-error">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide1" class="btn btn-circle">❮</a>
-                    <a href="#slide3" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-full">
-                <div class="hero min-h-[calc(100vh-140px)]"style="background-image: url(./images/banner3.png);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-error">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide2" class="btn btn-circle">❮</a>
-                    <a href="#slide4" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-            <div id="slide4" class="carousel-item relative w-full">
-                <div class="hero min-h-[calc(100vh-140px)]" style="background-image: url(./images/banner4.png);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
-                            <p class="mb-5">We supply highly quality organic products</p>
-                            <button class="btn btn-error">Shop Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="-mt-50 flex justify-center gap-4 ">
+        <div class=" hidden md:mt-[-80px] md:left-[27%] lg:flex justify-center absolute bg-white gap-4 z-[50] ">
             <div>
                 <img src="images/fruit1.png" alt="">
                 <h1>Strawberry</h1>
@@ -148,22 +150,21 @@
 
     <main>
         <!-- deal -->
-        <div class="max-w-screen-xl mx-auto flex-1 lg:flex py-10 justify-between">
+        <div class="max-w-screen-xl mx-auto flex-1 md:text-center lg:flex py-10 justify-between">
             <div>
-                <h1 class="text-3xl sm:text-center py-4">
+                <h1 class="text-3xl text-center  lg:text-left py-4">
                     Deal of the day
                 </h1>
 
 
                 <p class="pb-5">
-                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
-                    Latin literature from 45 BC, making it over 2000 years old.
+                    Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.
 
                 </p>
 
             </div>
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max items-center">
-                <div class="flex flex-col">
+            <div class="grid grid-flow-col items-center md:pl-56 gap-2  lg:gap-5   auto-cols-max ">
+                <div class="flex flex-col ">
                     <span class="countdown font-mono text-5xl">
                         <span style="--value:15 ;"></span>:
                     </span>
@@ -191,7 +192,7 @@
                 </div>
             </div>
         </div>
-        <section class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-4  gap-10 py-10">
+        <section class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-10 py-10">
 
             <div>
                 <div class="card  lg:flex   bg-base-100 shadow-xl">
@@ -250,8 +251,8 @@
                     </div>
                     <!-- Open the modal using ID.showModal() method -->
                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <button class="btn" onclick="my_modal_2.showModal()">Deatels</button>
+                    <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <figure><img src="./images/fruit7.png" alt="Fruits" /></figure>
                             <div class="card-body">
@@ -291,8 +292,8 @@
                     </div>
                     <!-- Open the modal using ID.showModal() method -->
                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <button class="btn" onclick="my_modal_3.showModal()">Deatels</button>
+                    <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <figure><img src="./images/fruit8.png" alt="Fruits" /></figure>
                             <div class="card-body">
@@ -332,8 +333,8 @@
                     </div>
                     <!-- Open the modal using ID.showModal() method -->
                     <!-- Open the modal using ID.showModal() method -->
-                    <button class="btn" onclick="my_modal_5.showModal()">open modal</button>
-                    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <button class="btn" onclick="my_modal_4.showModal()">Deatels</button>
+                    <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle">
                         <form method="dialog" class="modal-box">
                             <figure><img src="./images/fruit9.png" alt="Fruits" /></figure>
                             <div class="card-body">
@@ -379,7 +380,7 @@
                         <p class="mb-5 text-xs">Contrary to popular belief, is not simply random text. It has roots in a
                             piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
 
-                        <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 ">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 ">
                             <div>
                                 <div class="flex justify-center">
                                     <figure><img class="content-center" src="/images//member1.png" alt="Shoes" />
@@ -458,105 +459,109 @@
                     fresh fruits.</p>
             </div>
             <div class="flex-1 lg:flex   justify-between ">
-                <div class="py-10">
-                    <div class="flex gap-5 items-center">
+                <div class="py-10 ">
+                    <div class="flex-col-1 justify-center lg:flex gap-5 items-center">
 
-                        <div>
+                        <div class="flex justify-center">
                             <i class="w-8 h-8 rounded-2xl  bg-stone-300 p-2 fa-solid fa-people-group"></i>
 
                         </div>
                         <div>
-                            <h1 class="text-2xl  font-extrabold">
+                            <h1 class="text-2xl text-center lg:text-start  font-extrabold">
                                 Dedicated Team
-                                <hr class="h-[2px] w-16">
+                                <hr class="h-[2px] w-16 ">
                             </h1>
 
-                            <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                            <p class="text-center lg:text-start ">Professional employees are there for you to pick <br> the most amazing and fresh fruits.
                             </p>
                         </div>
 
                     </div>
-                    <div class="flex gap-5 items-center py-5">
+                    <div class="  flex-col-1  lg:flex gap-5 items-center">
 
-                        <div>
+                        <div class="flex justify-center">
                             <i class="w-8 h-8 rounded-2xl  bg-stone-300 p-2 fa-solid fa-heart-circle-check"></i>
 
                         </div>
                         <div>
-                            <h1 class="text-2xl  font-extrabold">
+                            <h1 class="text-2xl text-center lg:text-start   font-extrabold">
 
                                 Fresh is Best
                                 <hr class="h-[2px] w-16">
                             </h1>
-                            <p>Professional employees are there for you to pick <br> the most amazing and
-                                fresh
-                                fruits.</p>
+                            <p class="flex flex-col  text-center md:text-center lg:text-start "> Professional employees are there for you to pick <br>   the most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex gap-5 items-center">
+                    <div class=" flex-col-1  lg:flex gap-5 items-center">
 
-                        <div>
+                        <div class="flex justify-center">
                             <i class="w-8 h-8 rounded-2xl  bg-stone-300 p-2 fa-solid fa-gift"></i>
 
                         </div>
                         <div>
-                            <h1 class="text-xl font-extrabold">Gift Certificates
+                            <h1 class="text-xl text-center lg:text-start   font-extrabold">Gift Certificates
                                 <hr class="h-[2px] w-16">
                             </h1>
-                            <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                            <p class="flex flex-col text-center lg:text-start  ">Professional employees are there for you to pick <br> the most amazing and fresh fruits.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="flex justify-center">
                     <img src="images/whychoose1.png" alt="">
                 </div>
 
                 <div class="py-10">
-                    <div class="flex gap-5 items-center ">
-                        <div class="text-end">
-                            <h1 class="text-2xl   font-extrabold">
+                    <div class=" flex flex-col-reverse justify-center  lg:flex-row gap-5 ">
+                      
+
+                        <div class="lg:text-end">
+                            <h1 class="text-2xl flex flex-col text-center lg:text-end  font-extrabold">
                                 Integrated Supplier
                                 <hr class="items-end h-[2px] w-16">
                             </h1>
 
-                            <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                            <p class="flex flex-col  text-center">Professional employees are there for you to pick <br> the most amazing and fresh fruits.
                             </p>
                         </div>
-                        <div>
+                        <div class="flex  justify-center">
                             <i class="w-8 h-8 rounded-2xl  bg-stone-300 p-2 fa-solid fa-apple-whole"></i>
 
                         </div>
-
+                       
                     </div>
-                    <div class="flex gap-5 items-center py-5 ">
-                        <div class="text-end">
-                            <h1 class="text-2xl   font-extrabold">
+                    <div class=" flex flex-col-reverse justify-center  lg:flex-row gap-5">
+                      
+                        <div class="text-center lg:text-end">
+                            <h1 class="text-2xl flex flex-col-reverse font-extrabold">
                                 <hr class=" h-[2px] w-16">
                                 Sustainable Practice
                             </h1>
                             <a class="link "></a>
-                            <p>Professional employees are there for you to pick <br> the most amazing and
+                            <p class="flex flex-col text-center">Professional employees are there for you to pick <br> the most amazing and
                                 fresh
                                 fruits.</p>
                         </div>
-                        <div>
+                        <div class="flex  justify-center">
                             <i class="w-8 h-8 rounded-2xl  bg-stone-300 p-2 fa-solid fa-ice-cream"></i>
                         </div>
+                        
                     </div>
-                    <div class="flex gap-5 items-center">
-                        <div class="text-end">
-                            <h1 class="text-xl font-extrabold">The Benefits Only
+                    <div class="flex flex-col-reverse justify-center  lg:flex-row gap-5  ">
+                        
+                        <div class="text-center lg:text-end ">
+                            <h1 class="text-xl font-extrabold ">The Benefits Only
                                 <hr class="h-[1px] w-16">
                             </h1>
 
-                            <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.
+                            <p class="flex flex-col text-center ">Professional employees are there for you to pick <br> the most amazing and fresh fruits.
                             </p>
                         </div>
-                        <div class=" primary-content  ">
+                        <div class=" primary-content flex  justify-center   ">
                             <i class=" w-8 h-8 rounded-2xl  bg-stone-300 p-2 fa-solid fa-thumbs-up "></i>
 
                         </div>
+                      
                     </div>
                 </div>
 
